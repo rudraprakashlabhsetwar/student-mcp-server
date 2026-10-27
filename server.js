@@ -5,7 +5,7 @@ const { z } = require('zod');
 const axios = require('axios');
 
 // Tumhara Render Backend URL
-const API_URL = process.env.STUDENT_API_URL || 'https://student-api-oqkt.onrender.com/api';
+const API_URL = process.env.STUDENT_API_URL || 'https://student-api-xjlq.onrender.com/api';
 
 const app = express();
 app.use(express.json());
