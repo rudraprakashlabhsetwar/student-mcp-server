@@ -1,12 +1,17 @@
 {
   "name": "mcp-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Student Management System MCP Server",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "student-management"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
