@@ -156,6 +156,6 @@ app.post('/mcp', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`🚀 MCP Server running on port ${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 MCP Server running on 0.0.0.0:${PORT}`);
 });
